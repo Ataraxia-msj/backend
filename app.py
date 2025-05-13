@@ -13,7 +13,7 @@ app = FastAPI(title="Parameter Recommendation API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # 开发时可用 ["*"]
+    allow_origins=["https://ataraxia-msj.github.io"],  # 开发时可用 ["*"]
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
