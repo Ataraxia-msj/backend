@@ -15,8 +15,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://ataraxia-msj.github.io",
-        "http://localhost:5173",
-        "http://henosv.com"
+        # "http://localhost:5173",
+        "https://henosv.com"
         ],  # 开发时可用 ["*"]
     allow_credentials=True,
     allow_methods=["*"],
